@@ -1,0 +1,47 @@
+body{
+  margin:0;
+}
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  .active {
+    color:black;
+    text-decoration:underline;
+  }
+  a:hover {
+      text-decoration : underline;
+  }
+
+
+  h1 {
+    font-size:20px;
+    text-align: left;
+    border-bottom:1px solid black;
+    margin:0;
+    padding:10px;
+    font-family: 'Fenix', serif;
+  }
+  ol{
+    border-right:1px solid black;
+    width:100px;
+    margin:0;
+    padding:20px;
+    font-family: 'Fenix', serif;
+  }
+  h2 {
+    font-size:20px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 0px 150px 1fr;
+    font-family: 'Fenix', serif;
+  }
+  @media(max-width:800px){
+    #grid{
+      display:block;
+      font-family: 'Fenix', serif;
+    }
+    ol{
+      border:none
+  }
